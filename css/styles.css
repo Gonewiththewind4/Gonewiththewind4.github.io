@@ -44,7 +44,7 @@ h1 {
 
   font-size:28px;
 
-  font-weight: 500;
+  font-weight: 600;
 
 }
 
@@ -210,9 +210,9 @@ img {
 
 header {
 
-  /*margin-top:100px;*/
+  /*margin-top:100px;*/ /*那几个图标*/
 
-  width:270px;
+  width:190px;
 
   float:left;
 
@@ -226,7 +226,7 @@ header {
 
 section {
 
-  width:700px;
+  width:800px;
 
   float:right;
 
@@ -270,7 +270,7 @@ footer {
 
   position:fixed;
 
-  bottom:50px;
+  bottom:20px;
 
   -webkit-font-smoothing:subpixel-antialiased;
 
