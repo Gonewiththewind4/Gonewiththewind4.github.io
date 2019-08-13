@@ -42,6 +42,25 @@
 
 				gtag('config', 'UA-144651689-1');
 		</script>
+  		<script src="https://cdn.jsdelivr.net/npm/vega@4.0.0-rc.1"></script>
+
+  		<script type="text/javascript">
+    		var view;
+
+    		vega.loader()
+      		.load('visualization.vg.json')
+      		.then(function(data) { render(JSON.parse(data)); });
+  
+ 	  		function render(spec){
+      		view = new vega.View(vega.parse(spec))
+        		.renderer('canvas') 
+        		.initialize('#view') 
+        		.hover()           
+        		.run();
+    		}
+	 
+
+  </script>>
     </head>
 
     <!-- ALL CONTENT -->
@@ -134,8 +153,9 @@
 		</ul>
      </header>
 	  <section>
-		  <h1>This website is not finished</h1>
 		<h2> Techniques Graph</h2>
+
+		    <div id="view"></div>
 	  </section>
 	  <section>
 		<h2> Courses</h2>
@@ -145,6 +165,81 @@
 		  	<h3>School of Mathematic</h3>
 		<table style="margin-top:-12px;">
 		<!-- -->
+			
+		  <tr>
+                <td>
+                    <div id="indexWorkText">
+                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);">Stochastic Control and Dynamic Asset Allocation</a></strong> <br>
+                        <em>2018-2019[sem 2]</em>
+					</div>
+                    <div id="indexWorkText">
+                         Teacher:  
+					</div>
+                </td>
+				
+				
+				<td>
+                    <div id="indexWorkText">
+                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);">Risk-Neutral Asset Pricing</a></strong> <br>
+                        <em>2018-2019[sem 2]</em>
+					</div>
+                    <div id="indexWorkText">
+                         Teacher:  
+					</div>
+                </td>
+            </tr>
+			
+								<!-- -->
+		  <tr>
+
+				
+				<td>
+                    <div id="indexWorkText">
+                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);">Numerical Partial Differential Equations</a></strong> <br>
+                        <em>2018-2019[sem 2]</em>
+					</div>
+                    <div id="indexWorkText">
+                         Teacher:  
+					</div>
+                </td>
+			  
+			    <td>
+                    <div id="indexWorkText">
+                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);">Time Series</a></strong> <br>
+                        <em>2018-2019[sem 2]</em>
+					</div>
+                    <div id="indexWorkText">
+                         Teacher:  
+					</div>
+                </td>
+				
+            </tr>
+			
+								<!-- -->
+		  <tr>
+
+				
+				<td>
+                    <div id="indexWorkText">
+                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);">Numerical Probability and Monte Carlo</a></strong> <br>
+                        <em>2018-2019[sem 2]</em>
+					</div>
+                    <div id="indexWorkText">
+                         Teacher:  
+					</div>
+                </td>
+			  
+			  	<td>
+                    <div id="indexWorkText">
+                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);">Optimization Methods in FInance</a></strong> <br>
+                        <em>2018-2019[class only]</em>
+					</div>
+                    <div id="indexWorkText">
+                         Teacher:  
+					</div>
+                </td>
+				
+            </tr>			
 		  <tr>
                 <td>
                     <div id="indexWorkText">
@@ -221,80 +316,7 @@
 			
 			
 					<!-- -->
-		  <tr>
-                <td>
-                    <div id="indexWorkText">
-                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);">Stochastic Control and Dynamic Asset Allocation</a></strong> <br>
-                        <em>2018-2019[sem 2]</em>
-					</div>
-                    <div id="indexWorkText">
-                         Teacher:  
-					</div>
-                </td>
-				
-				
-				<td>
-                    <div id="indexWorkText">
-                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);">Risk-Neutral Asset Pricing</a></strong> <br>
-                        <em>2018-2019[sem 2]</em>
-					</div>
-                    <div id="indexWorkText">
-                         Teacher:  
-					</div>
-                </td>
-            </tr>
-			
-								<!-- -->
-		  <tr>
 
-				
-				<td>
-                    <div id="indexWorkText">
-                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);">Numerical Partial Differential Equations</a></strong> <br>
-                        <em>2018-2019[sem 2]</em>
-					</div>
-                    <div id="indexWorkText">
-                         Teacher:  
-					</div>
-                </td>
-			  
-			    <td>
-                    <div id="indexWorkText">
-                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);">Time Series</a></strong> <br>
-                        <em>2018-2019[sem 2]</em>
-					</div>
-                    <div id="indexWorkText">
-                         Teacher:  
-					</div>
-                </td>
-				
-            </tr>
-			
-								<!-- -->
-		  <tr>
-
-				
-				<td>
-                    <div id="indexWorkText">
-                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);">Numerical Probability and Monte Carlo</a></strong> <br>
-                        <em>2018-2019[sem 2]</em>
-					</div>
-                    <div id="indexWorkText">
-                         Teacher:  
-					</div>
-                </td>
-			  
-			  	<td>
-                    <div id="indexWorkText">
-                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);">Optimization Methods in FInance</a></strong> <br>
-                        <em>2018-2019[class only]</em>
-					</div>
-                    <div id="indexWorkText">
-                         Teacher:  
-					</div>
-                </td>
-				
-            </tr>
 		  </table>
 		  
 		  	<h3>School of Informatic</h3>
@@ -442,55 +464,6 @@
 		
 		<!-- 2016-2017 -->
 		
-	
-		  
-			<tr>
-				<td>
-                    <div id="indexWorkText">
-                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);">Real Analysis </a></strong> <br>
-                        <em>2016-2017[sem 1]</em>
-					</div>
-                    <div id="indexWorkText">
-                         Teacher:  
-					</div>
-                </td>
-			  
-			  	<td>
-                    <div id="indexWorkText">
-                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);"> Numerical Analysis(approximatio)</a></strong> <br>
-                        <em>2016-2017[sem1]</em>
-					</div>
-                    <div id="indexWorkText">
-                         Teacher:  
-					</div>
-                </td>
-				
-            </tr>	
-			
-			
-			<tr>
-				<td>
-                    <div id="indexWorkText">
-                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);"> Partial Differential Equations</a></strong> <br>
-                        <em>2016-2017[sem 1]</em>
-					</div>
-                    <div id="indexWorkText">
-                         Teacher:  
-					</div>
-                </td>
-			  
-			  	<td>
-                    <div id="indexWorkText">
-                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);"> Introduction to Information Theory</a></strong> <br>
-                        <em>2016-2017[sem1]</em>
-					</div>
-                    <div id="indexWorkText">
-                         Teacher:  
-					</div>
-                </td>
-				
-            </tr>	
-			
 			<tr>
 				<td>
                     <div id="indexWorkText">
@@ -563,7 +536,56 @@
 					</div>
                 </td>
 				
-            </tr>
+            </tr>	
+		  
+			<tr>
+				<td>
+                    <div id="indexWorkText">
+                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);">Real Analysis </a></strong> <br>
+                        <em>2016-2017[sem 1]</em>
+					</div>
+                    <div id="indexWorkText">
+                         Teacher:  
+					</div>
+                </td>
+			  
+			  	<td>
+                    <div id="indexWorkText">
+                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);"> Numerical Analysis(approximatio)</a></strong> <br>
+                        <em>2016-2017[sem1]</em>
+					</div>
+                    <div id="indexWorkText">
+                         Teacher:  
+					</div>
+                </td>
+				
+            </tr>	
+			
+			
+			<tr>
+				<td>
+                    <div id="indexWorkText">
+                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);"> Partial Differential Equations</a></strong> <br>
+                        <em>2016-2017[sem 1]</em>
+					</div>
+                    <div id="indexWorkText">
+                         Teacher:  
+					</div>
+                </td>
+			  
+			  	<td>
+                    <div id="indexWorkText">
+                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);"> Introduction to Information Theory</a></strong> <br>
+                        <em>2016-2017[sem1]</em>
+					</div>
+                    <div id="indexWorkText">
+                         Teacher:  
+					</div>
+                </td>
+				
+            </tr>	
+			
+
 			
 			
 			
@@ -575,7 +597,54 @@
 		
 		<!-- 2015-2016 -->
 		
-	
+			<tr>
+			  	<td>
+                    <div id="indexWorkText">
+                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);"> Complex Analysis</a></strong> <br>
+                        <em>2015-2016[sem2]</em>
+					</div>
+                    <div id="indexWorkText">
+                         Teacher:  
+					</div>
+                </td>
+				
+				<td>
+                    <div id="indexWorkText">
+                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);"> Fuzzy Mathematics</a></strong> <br>
+                        <em>2015-2016[sem 1][Option]</em>
+					</div>
+                    <div id="indexWorkText">
+                         Teacher:  
+					</div>
+                </td>
+			  
+
+				
+            </tr>
+			
+			
+			<tr>
+				<td>
+                    <div id="indexWorkText">
+                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);"> Numerical Analysis(Algebra)</a></strong> <br>
+                        <em>2015-2016[sem 2]</em>
+					</div>
+                    <div id="indexWorkText">
+                         Teacher:  
+					</div>
+                </td>
+			  
+			  	<td>
+                    <div id="indexWorkText">
+                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);"> General Physics 2</a></strong> <br>
+                        <em>2015-2016[sem2]</em>
+					</div>
+                    <div id="indexWorkText">
+                         Teacher:  
+					</div>
+                </td>
+				
+            </tr>
 		  
 			<tr>
 				<td>
@@ -601,52 +670,7 @@
             </tr>
 			
 			
-						<tr>
-				<td>
-                    <div id="indexWorkText">
-                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);"> Fuzzy Mathematics</a></strong> <br>
-                        <em>2015-2016[sem 1][Option]</em>
-					</div>
-                    <div id="indexWorkText">
-                         Teacher:  
-					</div>
-                </td>
-			  
-			  	<td>
-                    <div id="indexWorkText">
-                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);"> Complex Analysis</a></strong> <br>
-                        <em>2015-2016[sem2]</em>
-					</div>
-                    <div id="indexWorkText">
-                         Teacher:  
-					</div>
-                </td>
-				
-            </tr>
-			
-			
-						<tr>
-				<td>
-                    <div id="indexWorkText">
-                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);"> Numerical Analysis(Algebra)</a></strong> <br>
-                        <em>2015-2016[sem 2]</em>
-					</div>
-                    <div id="indexWorkText">
-                         Teacher:  
-					</div>
-                </td>
-			  
-			  	<td>
-                    <div id="indexWorkText">
-                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);"> General Physics 2</a></strong> <br>
-                        <em>2015-2016[sem2]</em>
-					</div>
-                    <div id="indexWorkText">
-                         Teacher:  
-					</div>
-                </td>
-				
-            </tr>
+
 			
 			
 						
@@ -656,8 +680,56 @@
 		
 		
 		<!-- 2014-2015 -->
-		
-	
+
+			
+			
+			
+			<tr>
+				<td>
+                    <div id="indexWorkText">
+                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);"> Calculus with Theory 2</a></strong> <br>
+                        <em>2014-2015[sem 2]</em>
+					</div>
+                    <div id="indexWorkText">
+                         Teacher:  
+					</div>
+                </td>
+			  
+			  	<td>
+                    <div id="indexWorkText">
+                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);"> C Language and Programming</a></strong> <br>
+                        <em>2014-2015[sem2]</em>
+					</div>
+                    <div id="indexWorkText">
+                         Teacher:  
+					</div>
+                </td>
+				
+            </tr>		
+
+			<tr>
+			  	<td>
+                    <div id="indexWorkText">
+                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);"> Linear Algebra with Abstracted Vector Spaces 2</a></strong> <br>
+                        <em>2014-2015[sem2]</em>
+					</div>
+                    <div id="indexWorkText">
+                         Teacher:  
+					</div>
+                </td>
+				<td>
+                    <div id="indexWorkText">
+                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);"> Space Analytic Geometry</a></strong> <br>
+                        <em>2014-2015[sem 1]</em>
+					</div>
+                    <div id="indexWorkText">
+                         Teacher:  
+					</div>
+                </td>
+			  
+
+				
+            </tr>
 		
 			<tr>
 				<td>
@@ -683,182 +755,13 @@
             </tr>
 			
 			
-			<tr>
-				<td>
-                    <div id="indexWorkText">
-                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);"> Space Analytic Geometry</a></strong> <br>
-                        <em>2014-2015[sem 1]</em>
-					</div>
-                    <div id="indexWorkText">
-                         Teacher:  
-					</div>
-                </td>
-			  
-			  	<td>
-                    <div id="indexWorkText">
-                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);"> Linear Algebra with Abstracted Vector Spaces 2</a></strong> <br>
-                        <em>2014-2015[sem2]</em>
-					</div>
-                    <div id="indexWorkText">
-                         Teacher:  
-					</div>
-                </td>
-				
-            </tr>
-			
-			
-			
-			<tr>
-				<td>
-                    <div id="indexWorkText">
-                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);"> Calculus with Theory 2</a></strong> <br>
-                        <em>2014-2015[sem 2]</em>
-					</div>
-                    <div id="indexWorkText">
-                         Teacher:  
-					</div>
-                </td>
-			  
-			  	<td>
-                    <div id="indexWorkText">
-                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);"> C Language and Programming</a></strong> <br>
-                        <em>2014-2015[sem2]</em>
-					</div>
-                    <div id="indexWorkText">
-                         Teacher:  
-					</div>
-                </td>
-				
-            </tr>
+
 			
 			
 		</table>
 		  	<h3>School of Economics</h3>
 		  
 		  <table>
-			  <tr>
-				<td>
-                    <div id="indexWorkText">
-                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);"> Microeconomics & Macroeconomics</a></strong> <br>
-                        <em>2015-2016[sem 1]</em>
-					</div>
-                    <div id="indexWorkText">
-                         Teacher:  
-					</div>
-                </td>
-			  
-			  	<td>
-                    <div id="indexWorkText">
-                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);">Political Economic</a></strong> <br>
-                        <em>2015-2016[sem1]</em>
-					</div>
-                    <div id="indexWorkText">
-                         Teacher:  
-					</div>
-                </td>
-				
-            </tr>
-			  
-			  
-			  
-			  <tr>
-				<td>
-                    <div id="indexWorkText">
-                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);"> Accounting</a></strong> <br>
-                        <em>2015-2016[sem 1]</em>
-					</div>
-                    <div id="indexWorkText">
-                         Teacher:  
-					</div>
-                </td>
-			  
-			  	<td>
-                    <div id="indexWorkText">
-                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);"> Public Finance</a></strong> <br>
-                        <em>2015-2016[sem1]</em>
-					</div>
-                    <div id="indexWorkText">
-                         Teacher:  
-					</div>
-                </td>
-				
-            </tr>
-			
-			  
-			  <tr>
-				<td>
-                    <div id="indexWorkText">
-                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);"> Money and Banking</a></strong> <br>
-                        <em>2015-2016[sem 1]</em>
-					</div>
-                    <div id="indexWorkText">
-                         Teacher:  
-					</div>
-                </td>
-			  
-			  	<td>
-                    <div id="indexWorkText">
-                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);"> International Economics</a></strong> <br>
-                        <em>2015-2016[sem2]</em>
-					</div>
-                    <div id="indexWorkText">
-                         Teacher:  
-					</div>
-                </td>
-				
-            </tr>
-			
-			  
-			  
-			  <tr>
-				<td>
-                    <div id="indexWorkText">
-                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);"> Principle of Finance</a></strong> <br>
-                        <em>2015-2016[sem 2]</em>
-					</div>
-                    <div id="indexWorkText">
-                         Teacher:  
-					</div>
-                </td>
-			  
-			  	<td>
-                    <div id="indexWorkText">
-                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);"> International Finance</a></strong> <br>
-                        <em>2015-2016[sem2]</em>
-					</div>
-                    <div id="indexWorkText">
-                         Teacher:  
-					</div>
-                </td>
-				
-            </tr>
-			
-			  
-			  
-			  <tr>
-				<td>
-                    <div id="indexWorkText">
-                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);"> Financial Marketing</a></strong> <br>
-                        <em>2015-2016[sem 2]</em>
-					</div>
-                    <div id="indexWorkText">
-                         Teacher:  
-					</div>
-                </td>
-			  
-			  	<td>
-                    <div id="indexWorkText">
-                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);"> Commercial Bank Operation and Management</a></strong> <br>
-                        <em>2015-2016[sem2]</em>
-					</div>
-                    <div id="indexWorkText">
-                         Teacher:  
-					</div>
-                </td>
-				
-            </tr>
-			
-			  
 			  
 			  <tr>
 				<td>
@@ -909,7 +812,6 @@
             </tr>
 			
 			  
-			  
 			  <tr>
 				<td>
                     <div id="indexWorkText">
@@ -921,8 +823,141 @@
 					</div>
                 </td>
 			  
-			  	
+			  	<td>
+                    <div id="indexWorkText">
+                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);"> International Economics</a></strong> <br>
+                        <em>2015-2016[sem2]</em>
+					</div>
+                    <div id="indexWorkText">
+                         Teacher:  
+					</div>
+                </td>
+				
             </tr>
+
+			  
+			  
+			  
+			  <tr>
+				<td>
+                    <div id="indexWorkText">
+                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);"> Principle of Finance</a></strong> <br>
+                        <em>2015-2016[sem 2]</em>
+					</div>
+                    <div id="indexWorkText">
+                         Teacher:  
+					</div>
+                </td>
+			  
+			  	<td>
+                    <div id="indexWorkText">
+                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);"> International Finance</a></strong> <br>
+                        <em>2015-2016[sem2]</em>
+					</div>
+                    <div id="indexWorkText">
+                         Teacher:  
+					</div>
+                </td>
+				
+            </tr>
+			
+			  
+			  
+			  <tr>
+				<td>
+                    <div id="indexWorkText">
+                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);"> Financial Marketing</a></strong> <br>
+                        <em>2015-2016[sem 2]</em>
+					</div>
+                    <div id="indexWorkText">
+                         Teacher:  
+					</div>
+                </td>
+			  
+			  	<td>
+                    <div id="indexWorkText">
+                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);"> Commercial Bank Operation and Management</a></strong> <br>
+                        <em>2015-2016[sem2]</em>
+					</div>
+                    <div id="indexWorkText">
+                         Teacher:  
+					</div>
+                </td>
+				
+            </tr>
+			  
+			  
+			  
+			  
+
+			  <tr>
+				<td>
+                    <div id="indexWorkText">
+                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);"> Microeconomics & Macroeconomics</a></strong> <br>
+                        <em>2015-2016[sem 1]</em>
+					</div>
+                    <div id="indexWorkText">
+                         Teacher:  
+					</div>
+                </td>
+			  
+			  	<td>
+                    <div id="indexWorkText">
+                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);">Political Economic</a></strong> <br>
+                        <em>2015-2016[sem1]</em>
+					</div>
+                    <div id="indexWorkText">
+                         Teacher:  
+					</div>
+                </td>
+				
+            </tr>
+			  
+			  
+			  
+			  <tr>
+				<td>
+                    <div id="indexWorkText">
+                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);"> Accounting</a></strong> <br>
+                        <em>2015-2016[sem 1]</em>
+					</div>
+                    <div id="indexWorkText">
+                         Teacher:  
+					</div>
+                </td>
+			  
+			  	<td>
+                    <div id="indexWorkText">
+                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);"> Public Finance</a></strong> <br>
+                        <em>2015-2016[sem1]</em>
+					</div>
+                    <div id="indexWorkText">
+                         Teacher:  
+					</div>
+                </td>
+				
+            </tr>
+			<tr>
+				<td>
+                    <div id="indexWorkText">
+                        <!-- Title + Link --><strong><a href="" onClick="_gaq.push(['_trackEvent', 'Click', 'Plan Reg Paper Clicked']);"> Money and Banking</a></strong> <br>
+                        <em>2015-2016[sem 1]</em>
+					</div>
+                    <div id="indexWorkText">
+                         Teacher:  
+					</div>
+                </td>
+
+			</tr>
+			  
+
+			
+			  
+
+			
+			  
+			  
+
 			
 			
 			
