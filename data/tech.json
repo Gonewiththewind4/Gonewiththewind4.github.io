@@ -164,6 +164,168 @@
     "name": "Foundational Statistic",
     "parent": 5,
     "size": 1000
+  },
+  {
+    "id": 29,
+    "name": "Computational Sciencs",
+    "parent": 1,
+    "size": 1000
+  },
+  {
+    "id": 30,
+    "name": "Artificial Intelligence",
+    "parent": 1,
+    "size": 1000
+  },
+  {
+    "id": 31,
+    "name": "Optimization",
+    "parent": 1,
+    "size": 1000
+  },
+  {
+    "id": 32,
+    "name": "Statistic",
+    "parent": 1,
+    "size": 1000
+  },
+  {
+    "id": 33,
+    "name": "Data Science",
+    "parent": 1,
+    "size": 1000
+  },
+  {
+    "id": 34,
+    "name": "Programming & Algorithm",
+    "parent": 1,
+    "size": 1000
+  },
+  {
+    "id": 35,
+    "name": "Convex Optimization",
+    "parent": 4,
+    "size": 1000
+  },
+  {
+    "id": 36,
+    "name": "Data Structure and Algorithm",
+    "parent": 45,
+    "size": 1000
+  },
+  {
+    "id": 37,
+    "name": "Computational Mathematics",
+    "parent": 2,
+    "size": 1000
+  },
+  {
+    "id": 38,
+    "name": "Computational Finance",
+    "parent": 2,
+    "size": 1000
+  },
+  {
+    "id": 39,
+    "name": "Data wrangling",
+    "parent": 6,
+    "size": 1000
+  },
+  {
+    "id": 40,
+    "name": "optimization",
+    "parent": 1,
+    "size": 1000
+  },
+  {
+    "id": 41,
+    "name": "statistics",
+    "parent": 1,
+    "size": 1000
+  },
+  {
+    "id": 42,
+    "name": "stochastic",
+    "parent": 1,
+    "size": 1000
+  },
+  {
+    "id": 43,
+    "name": "Bayesian",
+    "parent": 1,
+    "size": 1000
+  },
+  {
+    "id": 44,
+    "name": "programming",
+    "parent": 1,
+    "size": 1000
+  } ,
+  {
+    "id": 45,
+    "name": "Algorithm",
+    "parent": 1,
+    "size": 1000
+  } ,
+  {
+    "id": 46,
+    "name": "Data Visualization",
+    "parent": 6,
+    "size": 1000
+  } ,
+  {
+    "id": 47,
+    "name": "Python",
+    "parent": 7,
+    "size": 1000
+  } ,
+  {
+    "id": 48,
+    "name": "C#",
+    "parent": 7,
+    "size": 1000
+  } ,
+  {
+    "id": 49,
+    "name": "Linux",
+    "parent": 7,
+    "size": 1000
+  },
+  {
+    "id": 50,
+    "name": "Matlab",
+    "parent": 7,
+    "size": 1000
+  },
+  {
+    "id": 51,
+    "name": "Mean Field Game",
+    "parent": 40,
+    "size": 1000
+  },
+  {
+    "id": 52,
+    "name": "Agent-Based Model",
+    "parent": 40,
+    "size": 1000
+  },
+  {
+    "id": 53,
+    "name": "Stochastic Process",
+    "parent": 5,
+    "size": 1000
+  },
+  {
+    "id": 54,
+    "name": "Application",
+    "parent": 1,
+    "size": 1000
+  },
+  {
+    "id": 55,
+    "name": "Optimal Trading",
+    "parent": 54,
+    "size": 1000
   }
   
 ]
